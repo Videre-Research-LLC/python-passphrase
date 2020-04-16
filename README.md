@@ -1,9 +1,9 @@
-### Passphrase
+# Passphrase
 
 A Python library for generating passphrases with numbers and special characters.
 
 
-# Why use this script?
+## Why use this script?
 
 By now it is generally accepted fact that passphrases are more effective then traditionnal complex passwords and also a lot easier to type and remember.
 
