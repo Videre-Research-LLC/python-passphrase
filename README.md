@@ -42,3 +42,6 @@ capitalization and a random number of special characters between the words.
 passphrase
 30iconic(0-$0*0Glow*-Valved-begrudge
 ```
+
+## Windows Download
+Also available as a [Windows executable download](https://github.com/Videre-Research-LLC/python-passphrase/releases/tag/v1.0)
