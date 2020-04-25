@@ -5,7 +5,7 @@ from __future__ import (absolute_import, division,
 
 __author__ = "Christophe Gauge"
 __email__ = "chris@videreresearch.com"
-__version__ = "1.0.0"
+__version__ = "1.0.1"
 
 '''
 
@@ -23,7 +23,11 @@ import random
 
 # G L O B A L S ###############################################################
 
-script_directory = os.path.dirname(os.path.abspath(__file__))
+try:
+    # PyInstaller creates a temp folder and stores path in _MEIPASS
+    script_directory = sys._MEIPASS
+except Exception:
+    script_directory = os.path.dirname(os.path.abspath(__file__))
 dictionary_file = "american-english"
 my_dictionary = os.path.join(script_directory, dictionary_file)
 
