@@ -5,7 +5,7 @@ A Python library for generating passphrases with numbers and special characters.
 
 ## Why use this script?
 
-By now it is generally accepted fact that passphrases are more effective then traditionnal complex passwords and also a lot easier to type and remember.
+By now it is generally accepted fact that passphrases are more effective than traditional complex passwords and also a lot easier to type and remember.
 
 For reference, here is an extract from the SANS institute article: [OUCH!  April 2017 Passphrases](https://www.sans.org/security-awareness-training/ouch-newsletter/2017/passphrases)
 > The challenge we all face is that cyber attackers have developed sophisticated and effective methods to brute force (automated guessing) passwords. This means bad guys can compromise your passwords if they are weak or easy to guess. An important step to protecting yourself is to use strong passwords. Typically, this is done by creating complex passwords; however, these can be hard to remember, confusing, and difficult to type. Instead, we recommend you use passphrases--a series of random words or a sentence. The more characters your passphrase has, the stronger it is.  The advantage is these are much easier to remember and type, but still hard for cyber attackers to hack.
